@@ -1,0 +1,28 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+
+#box-1{
+  border: solid black;
+  background-color: rgb(78, 78, 78);
+  width: 400px;
+  height: 100px fit-content;
+  margin-right: 100px;
+  padding: 10px
+}
+
+#draggableObj{
+  border: solid black;
+  background-color:lightgray;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#box-2{
+  border: solid black;
+  background-color: rgb(78, 78, 78);
+  width: 400px;
+  height: 100px;
+}
+

@@ -4,17 +4,18 @@
   <meta charset="UTF-8">
   <title>Drag and Drop</title>
   <link rel="stylesheet" href="style.css">
+  <script src="functions.js"></script>
 </head>
 <body>
 
-  <div id="box-1">
-    <div id="draggableObj">
+  <div id="box-1" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <div id="draggableObj" draggable="true" ondragstart="drag(event)">
       This is a draggable object
     </div>
 
   </div>
 
-  <div id="box-2">
+  <div id="box-2" ondrop="drop(event)" ondragover="allowDrop(event)">
 
   </div>
   
